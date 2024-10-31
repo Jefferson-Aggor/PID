@@ -217,6 +217,6 @@ def sim_run(options, PidController):
     print("Compute Time: ", round(time.clock() - start, 3), "seconds.")
     # Animation.
     elevator_ani = animation.FuncAnimation(fig, update_plot, frames=range(0,int(30.0*20)), interval=50, repeat = False, blit=True)
-    elevator_ani.save('animation.mp4')
+    # elevator_ani.save('animation.mp4')
 
     plt.show()
